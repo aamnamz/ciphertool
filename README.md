@@ -27,7 +27,7 @@ CipherCLI is a Python-based command-line tool that implements various classical 
 ## Installation
 1. Clone the repository to your local machine:
    ```bash
-   git clone https://github.com/your-username/CipherCLI.git
+   git clone https://github.com/aamnamz/ciphertool
    ```
 2. Navigate to the project directory:
    ```bash
@@ -35,7 +35,7 @@ CipherCLI is a Python-based command-line tool that implements various classical 
    ```
 3. Run the program:
    ```bash
-   python cipher_cli.py
+   python main.py
    ```
 
 ## Usage
