@@ -22,7 +22,7 @@ CipherCLI is a Python-based command-line tool that implements various classical 
 
 ## Prerequisites
 - **Python 3**: Ensure you have Python 3 installed on your system.
-- **No external libraries** are required. The project uses standard Python libraries only.
+- **No external libraries** are required. The project uses standard Python libraries.
 
 ## Installation
 1. Clone the repository to your local machine:
