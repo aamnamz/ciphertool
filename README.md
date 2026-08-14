@@ -38,7 +38,7 @@ CipherCLI is a Python-based command-line tool that implements various classical 
    python main.py
    ```
 
-## Usage
+## Usage:
 Once the program is running, you will be presented with a menu to choose the cipher you'd like to use.
 
 ### Example:
