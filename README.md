@@ -41,6 +41,7 @@ CipherCLI is a Python-based command-line tool that implements various classical 
 ## Usage
 Once the program is running, you will be presented with a menu to choose the cipher you'd like to use.
 
+
 ### Example:
 1. Choose a cipher (e.g., **Additive Cipher**).
 2. Choose between **Encrypt** or **Decrypt**.
