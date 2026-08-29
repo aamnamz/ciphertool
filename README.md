@@ -2,6 +2,8 @@
 
 ### Classical Cryptography — Reimagined as an Interactive Web App
 
+**Academic Project — 2023**
+
 CipherTool is a Python-based cryptography application that lets users **encrypt and decrypt messages using 10 classical cipher techniques** through an interactive Streamlit interface.
 
 🌐 **[https://amna-ciphertool.streamlit.app/]**
