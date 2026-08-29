@@ -1,8 +1,15 @@
-# CipherCLI - A Command Line Cipher Tool
+# CipherTool 🔐
 
-CipherCLI is a Python-based command-line tool that implements various classical encryption and decryption ciphers. You can use this tool to encrypt and decrypt messages using ciphers such as Additive Cipher, Multiplicative Cipher, Vigenère Cipher, Playfair Cipher, and more.
+### Classical Cryptography — Reimagined as an Interactive Web App
 
-## Ciphers Implemented
+CipherTool is a Python-based cryptography application that lets users **encrypt and decrypt messages using 10 classical cipher techniques** through an interactive Streamlit interface.
+
+🌐 **[https://amna-ciphertool.streamlit.app/]**
+
+![CipherTool](cipher.png)
+
+## 🔐 Ciphers Implemented
+
 1. **Additive Cipher**
 2. **Multiplicative Cipher**
 3. **Affine Cipher**
@@ -14,37 +21,63 @@ CipherCLI is a Python-based command-line tool that implements various classical 
 9. **Keyed Transposition Cipher**
 10. **Double Transposition Cipher**
 
-## Features
-- **Encrypt**: Encrypt any given plaintext with the chosen cipher.
-- **Decrypt**: Decrypt any given ciphertext with the chosen cipher.
-- **Multiple Cipher Support**: Choose from 10 different cipher techniques.
-- **User-Friendly Interface**: Simple command-line interface to interact with the program.
+## ✨ Features
 
-## Prerequisites
-- **Python 3**: Ensure you have Python 3 installed on your system.
-- **No external libraries** are required. The project uses standard Python libraries.
+* 🔒 **Encryption & Decryption** — Encrypt plaintext or decrypt ciphertext using the selected cipher.
+* 🔟 **10 Classical Ciphers** — Explore substitution, transposition, and polyalphabetic techniques.
+* 🎛️ **Interactive Interface** — Select a cipher, operation, and required key directly from the web interface.
+* 📋 **Instant Results** — View encrypted or decrypted output directly in the application.
+* 🐍 **Pure Python** — Core cipher implementations built using Python without external cryptography libraries.
 
-## Installation
-1. Clone the repository to your local machine:
-   ```bash
-   git clone https://github.com/aamnamz/ciphertool
-   ```
-2. Navigate to the project directory:
-   ```bash
-   cd CipherCLI
-   ```
-3. Run the program:
-   ```bash
-   python main.py
-   ```
+## 🛠️ Tech Stack
 
-## Usage:
-Once the program is running, you will be presented with a menu to choose the cipher you'd like to use.
+* **Python**
+* **Streamlit**
+* **Git/GitHub**
 
+## 🔄 How It Works
 
-### Example:
-1. Choose a cipher (e.g., **Additive Cipher**).
-2. Choose between **Encrypt** or **Decrypt**.
-3. Input your plaintext/ciphertext and the necessary keys.
-4. The program will display the encrypted/decrypted text.
+```text
+Select Cipher
+      ↓
+Choose Encrypt / Decrypt
+      ↓
+Enter Message & Key
+      ↓
+Cipher Processing
+      ↓
+Encrypted / Decrypted Result
+```
 
+## 🚀 Run Locally
+
+### Clone the repository
+
+```bash
+git clone https://github.com/aamnamz/ciphertool.git
+cd ciphertool
+```
+
+### Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### Run the application
+
+```bash
+streamlit run app.py
+```
+
+The application will open in your browser.
+
+## 📌 Project Status
+
+**Deployed and available as an interactive Streamlit web application.**
+
+## 👩‍💻 Author
+
+**Amna Mumtaz**
+
+[GitHub](https://github.com/aamnamz) · [LinkedIn](https://www.linkedin.com/in/amnaamumtaz/)
